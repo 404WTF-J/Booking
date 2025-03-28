@@ -1,0 +1,59 @@
+
+.containner {
+		height: 100vh;
+}
+.courseDetailsimg {
+		width: 100%;
+		height: 1000rpx;
+		overflow: hidden;
+}
+.courseDetailsimg image {
+		width: 100%;
+		height: 100%;
+}
+.courseDetailsDesc {
+		margin: 20rpx;
+		border-radius: 20rpx;
+		background-color: whitesmoke;
+		box-sizing: border-box;
+		padding: 10rpx;
+}
+
+
+	/* 底部bar */
+.footBar {
+		height: 140rpx;
+		background-color: #fbfbfb;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		position: -webkit-sticky;
+		position: sticky;
+		bottom: 0;
+}
+.iconbox {
+		width: 40%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+}
+.share {
+		/* display: contents; */
+}
+.share::after {
+		border: none;
+		background-color: none;
+		padding: 0;
+		margin: 0;
+}
+.buybtn {
+		width: 40%;
+		height: 80rpx;
+		line-height: 80rpx;
+		border-radius: 15rpx;
+		background-color: black;
+		color: white;
+		font-weight: 500;
+		font-size: 38rpx;
+		text-align: center;
+}

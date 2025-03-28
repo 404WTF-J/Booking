@@ -1,0 +1,90 @@
+
+.container.data-v-347f28c9 {
+		width: 100%;
+		box-sizing: border-box;
+		position: relative;
+}
+.no-scroll.data-v-347f28c9 {
+	    overflow: hidden; /* 禁止滚动 */
+	    height: 100%; /* 确保高度为100% */
+}
+.tuankeNav.data-v-347f28c9 {
+		width: 100%;
+		height: 200rpx;
+		background-color: black;
+		position: relative;
+		color: white;
+}
+.tuankeTextbox.data-v-347f28c9 {
+		width: 30%;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 75%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 40rpx;
+		font-weight: 500;
+}
+.popupT.data-v-347f28c9{
+}
+.yuyuebtn.data-v-347f28c9{
+		position: absolute;
+		right: 0;
+		top: 30%;
+}
+.scrollBox.data-v-347f28c9{
+		width: 100%;
+}
+.date-picker.data-v-347f28c9 {
+		overflow: hidden;
+		display: flex;
+		white-space: nowrap;
+		padding: 10rpx 0rpx;
+		background-color: black;
+}
+.date-item.data-v-347f28c9 {
+		display: inline-flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 10rpx 20rpx;
+		margin-right: 10rpx;
+		border-radius: 16rpx;
+		cursor: pointer;
+		color: white;
+}
+.date-item.active.data-v-347f28c9 {
+		background-color: #007aff;
+		color: #fff;
+}
+.content-area.data-v-347f28c9 {
+		margin: 30rpx;
+		padding: 20rpx;
+		background-color: #eccbcb;
+		border-radius: 30rpx;
+		box-shadow: 0 4rpx 16rpx rgba(0, 0, 0, 0.1);
+		background: 28% 0%;
+		position: relative;
+}
+.contentDataBox.data-v-347f28c9 {
+}
+.title.data-v-347f28c9 {
+		font-size: 40rpx;
+		font-weight: 400;
+		margin-bottom: 10rpx;
+		color: #fbcbbc;
+}
+.time.data-v-347f28c9,
+	.coach.data-v-347f28c9,
+	.capacity.data-v-347f28c9 {
+		font-weight: 500;
+		display: block;
+		margin-bottom: 5rpx;
+		color: #0d1725;
+}
+.difficulty span.data-v-347f28c9 {
+		color: #0d0714;
+}
+.difficulty span.filled.data-v-347f28c9 {
+		color: gold;
+}

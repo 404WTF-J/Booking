@@ -1,0 +1,8 @@
+{
+  "navigationStyle": "custom",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "custom-nav": "../../components/customizenav",
+    "custom-footer": "../../components/customfooter"
+  }
+}

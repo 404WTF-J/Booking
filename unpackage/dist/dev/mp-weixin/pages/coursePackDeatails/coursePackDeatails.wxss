@@ -1,0 +1,115 @@
+
+.containner {
+		overflow: hidden;
+		box-sizing: border-box;
+}
+.coursePackBox {
+		height: 500rpx;
+		margin-top: 20rpx;
+}
+.coursePackswiper {
+		height: 500rpx;
+}
+.swiperBox {
+		height: 500rpx;
+}
+.swiper-item {
+		display: block;
+		height: 500rpx;
+		line-height: 300rpx;
+		text-align: center;
+}
+.swiper-item image {
+		width: 100%;
+		height: 100%;
+}
+.coursePackDescBox {
+		padding: 20rpx;
+		box-sizing: border-box;
+}
+
+	/* 选项卡样式 */
+.memberdetailsBox {}
+.memberBox {
+		height: 300rpx;
+}
+.memberQx,
+	.memberCx {
+		width: 95%;
+		height: 300rpx;
+		border-radius: 30rpx;
+		background-color: white;
+		margin: 10rpx auto;
+		display: flex;
+		align-items: center;
+}
+.memberimg {
+		width: 400rpx;
+		height: 240rpx;
+		margin-left: 10rpx;
+		border-radius: 20rpx;
+		overflow: hidden;
+		position: relative;
+}
+.memberimg image {
+		width: 100%;
+		height: 100%;
+}
+.memberText {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-left: 30rpx;
+}
+.membername {
+		font-size: large;
+}
+.memberSelect {
+		display: flex;
+		justify-content: space-around;
+		height: 100rpx;
+		align-items: center;
+}
+.memberzhnashi {
+		height: 100vh;
+}
+.memberData {
+		padding: 20rpx;
+		display: flex;
+}
+.memberImg {
+		width: 300rpx;
+		height: 200rpx;
+		border-radius: 15rpx;
+		overflow: hidden;
+}
+.memberImg image {
+		width: 100%;
+		height: 100%;
+}
+.memberText1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-left: 30rpx;
+}
+.memberx,
+	.memberg,
+	.memberdetail {
+		position: relative;
+}
+.active {
+		font-weight: bold;
+		color: #000;
+		font-size: 35rpx;
+}
+.underline {
+		position: absolute;
+		bottom: -8rpx;
+		left: 40%;
+		width: 20%;
+		height: 4rpx;
+		background-color: #000;
+		transition: left 0.3s ease;
+}
