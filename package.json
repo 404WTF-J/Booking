@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "sass": "^1.86.0",
+    "sass-loader": "^16.0.5"
+  },
+  "scripts": {
+    "json": "json-server --watch ./mock/db.json --port 9988"
+  }
+}

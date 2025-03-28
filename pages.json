@@ -1,0 +1,172 @@
+{
+	  "requiredPrivateInfos": [
+	    "getLocation"
+	  ],
+	  "mp-weixin": {
+	    "appid": "wx6a2a1c0bfeab02aa"
+	  },
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				//取消默认tabbar
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/Booking/Booking",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/member/member",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "black"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+			        "navigationBarTitleText": "地图",
+					"navigationBarTextStyle": "black",
+					"navigationBarBackgroundColor":"#ffffff"
+			      }
+		}
+	    ,{
+            "path" : "pages/StoreLIst/StoreLIst",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/locationDeatil/locationDeatil",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarTextStyle": "white",
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/memberdetails/memberdetails",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/courseDetails/courseDetails",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom"
+            }
+        }
+        ,{
+            "path" : "pages/coursePackDeatails/coursePackDeatails",
+            "style" :                                                                                    
+            {
+				"navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/corsePackzhanshi/corsePackzhanshi",
+            "style" :                                                                                    
+            {
+               "navigationStyle": "custom"
+            }
+            
+        }
+        ,{
+            "path" : "pages/coatchDetails/coatchDetails",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/spinClass/spinClass",
+            "style" :                                                                                    
+            {
+                "navigationStyle":"custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/moreJiaolian/moreJiaolian",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "教练",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goodDetails/goodDetails",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"color": "#b3b3b3",
+		"selectedColor": "#fd8008",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/assest/Taricon/TablerHome.png"
+			},
+			{
+				"pagePath": "pages/Booking/Booking",
+				"text": "预约",
+				"iconPath": "static/assest/Taricon/TablerClockHour3.png"
+			},
+			{
+				"pagePath": "pages/member/member",
+				"text": "会员卡",
+				"iconPath": "static/assest/Taricon/TablerId.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/assest/Taricon/TablerUser.png"
+			}
+		]
+	},
+	"globalStyle": {},
+	"uniIdRouter": {
+
+	}
+}
