@@ -1,0 +1,28 @@
+
+.popupTukebox {
+		background-color: white;
+		height: 800rpx;
+		border-radius: 30rpx 30rpx 0 0;
+		margin-bottom: -70rpx;
+}
+.courseDetailsimg {
+		width: 100%;
+		overflow: hidden;
+		margin-top: 20rpx;
+		border-radius: 30rpx;
+		position: relative;
+}
+.courseDetailsimg image {
+		width: 100%;
+}
+.yuyuebtn{
+		position: absolute;
+		right:0;
+}
+.courseDetailsDesc {
+		margin: 20rpx;
+		border-radius: 20rpx;
+		background-color: whitesmoke;
+		box-sizing: border-box;
+		padding: 10rpx;
+}

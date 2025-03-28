@@ -1,0 +1,1 @@
+<view class="containner"><view wx:for="{{a}}" wx:for-item="item" wx:key="d" class="jiaolianBox" bindtap="{{item.e}}"><view class="jiaolianimg"><image src="{{item.a}}" class="jlimg"></image></view><view class="jiaoliandesc"><view style="font-size:35rpx">{{item.b}}</view><view>{{item.c}}</view></view></view></view>

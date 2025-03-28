@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "customfoot": "../../components/customfooter",
+    "custom-nav": "../../components/customizenav"
+  }
+}

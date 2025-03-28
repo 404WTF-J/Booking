@@ -11,8 +11,8 @@
 				<text>分享</text>
 			</button>
 		</view>
-		<view class="buybtn" @click="order">
-			立即购买
+		<view class="buybtn" @click="handleclick">
+			{{customtext}}
 		</view>
 	</view>
 </template>
@@ -21,7 +21,9 @@
 	import {
 		ref,
 		reactive,
-		onMounted
+		onMounted,
+		defineProps,
+		toRefs
 	} from 'vue';
 
 	import {
@@ -29,8 +31,23 @@
 		onShareAppMessage
 	} from '@dcloudio/uni-app';
 	import utils from "@/common/utils/utils.js";
-	import CustomNav from "@/components/customizenav.vue"
-
+	import CustomNav from "@/components/customizenav.vue";
+	
+	const props = defineProps({
+		customtext:{
+			type:String,
+			default:'立即购买'
+		},
+		customhandleclick:{
+			type:Function,
+			required:true
+		}
+	})
+	const { customtext, customhandleclick  } = toRefs(props);
+	const handleclick=()=>{
+		customhandleclick.value();
+	}
+	
 	const gohome = () =>{
 		uni.reLaunch({
 			url:'/pages/index/index'
@@ -48,6 +65,7 @@
 			}
 		})
 	}
+	
 </script>
 
 <style>

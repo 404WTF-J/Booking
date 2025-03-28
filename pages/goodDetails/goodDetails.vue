@@ -41,8 +41,12 @@
 				</view>
 			</view>
 		</view>
+		<!-- 购物车入口 -->
+		<view class="shoppingCrat" v-if="show" @click="shopentrance(goodData)">
+			<uni-icons type="cart-filled" size="50"></uni-icons>
+		</view>
 	</view>
-	<CustomFooter></CustomFooter>
+	<CustomFooter :customhandleclick="() =>orderpage(goodData)"></CustomFooter>
 </template>
 
 <script setup>
@@ -61,8 +65,21 @@
 	
 	const myValue = ref('商品详情')
 	const goodData = ref({})
+	const show = ref(false);
 
-
+	const orderpage =(res)=>{
+		show.value = true;
+		const parmas = JSON.stringify(res)
+		uni.navigateTo({
+			url:`/pages/goodsOrder/goodsOrder?option=${parmas}`
+		})
+	}
+	const shopentrance = (res) =>{
+		const parmas = JSON.stringify(res)
+		uni.navigateTo({
+			url:`/pages/shoppingCart/shoppingCart?option=${parmas}`
+		})
+	}
 	onLoad((options) => {
 		goodData.value = JSON.parse(options.option)
 		console.log(goodData)
@@ -74,8 +91,20 @@
 		height: 100vh;
 		/* padding: 20rpx; */
 		background-color: #f7f7f7;
+		position: relative;
 	}
-
+	/*  购物车*/
+	.shoppingCrat{
+		width: 100rpx;
+		height: 100rpx;
+		border-radius: 50rpx;
+		background-color: #efecea;
+		position: absolute;
+		bottom: 30%;
+		right: 40rpx;
+		text-align: center;
+		line-height: 100rpx;
+	}
 	.swiperbox {
 		width: 100%;
 		height: 400rpx;

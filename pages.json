@@ -1,6 +1,7 @@
 {
 	  "requiredPrivateInfos": [
-	    "getLocation"
+	    "getLocation",
+		"chooseAddress"
 	  ],
 	  "mp-weixin": {
 	    "appid": "wx6a2a1c0bfeab02aa"
@@ -131,6 +132,24 @@
         }
         ,{
             "path" : "pages/goodDetails/goodDetails",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/goodsOrder/goodsOrder",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+            
+        }
+        ,{
+            "path" : "pages/shoppingCart/shoppingCart",
             "style" :                                                                                    
             {
                 "navigationStyle": "custom",

@@ -1,0 +1,194 @@
+
+.containner {
+		height: 100vh;
+}
+.memberheader {
+		background-color: white;
+		overflow: hidden;
+}
+.CustomizeNav {
+		display: flex;
+		box-sizing: border-box;
+		margin-top: 100rpx;
+		font-weight: 500;
+		font-size: 35rpx;
+		color: black;
+		justify-content: space-evenly;
+		align-items: center;
+		position: relative;
+}
+.uicon {
+		position: absolute;
+		left: 10rpx;
+		top: 0;
+}
+.memberdetailsBox {}
+.memberBox {
+		height: 300rpx;
+}
+.memberQx,
+	.memberCx {
+		width: 95%;
+		height: 300rpx;
+		border-radius: 30rpx;
+		background-color: white;
+		margin: 10rpx auto;
+		display: flex;
+		align-items: center;
+}
+.memberimg {
+		width: 400rpx;
+		height: 240rpx;
+		margin-left: 10rpx;
+		border-radius: 20rpx;
+		overflow: hidden;
+		position: relative;
+}
+.memberimg image {
+		width: 100%;
+		height: 100%;
+}
+.memberText {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-left: 30rpx;
+}
+.membername {
+		font-size: large;
+}
+.memberSelect {
+		display: flex;
+		justify-content: space-around;
+		height: 100rpx;
+		align-items: center;
+}
+.memberzhnashi {
+		height: 100vh;
+}
+.memberData {
+		padding: 20rpx;
+		display: flex;
+}
+.memberImg {
+		width: 300rpx;
+		height: 200rpx;
+		border-radius: 15rpx;
+		overflow: hidden;
+}
+.memberImg image {
+		width: 100%;
+		height: 100%;
+}
+.memberText1 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		margin-left: 30rpx;
+}
+.memberx,
+	.memberg,
+	.memberdetail {
+		position: relative;
+}
+.active {
+		font-weight: bold;
+		color: #000;
+		font-size: 35rpx;
+}
+.underline {
+		position: absolute;
+		bottom: -8rpx;
+		left: 40%;
+		width: 20%;
+		height: 4rpx;
+		background-color: #000;
+		transition: left 0.3s ease;
+}
+.memberDetails_desc {
+		padding: 10rpx;
+}
+.info-container {
+		background-color: #fff;
+		padding: 30rpx;
+		border-radius: 10rpx;
+		box-shadow: 0 2rpx 6rpx rgba(0, 0, 0, 0.1);
+}
+
+	/* 信息项 */
+.info-item {
+		margin-bottom: 20rpx;
+		display: flex;
+		align-items: center;
+}
+
+	/* 标签样式 */
+.label {
+		width: 150rpx;
+		/* 适当调整宽度 */
+		font-size: 28rpx;
+		color: #666;
+}
+
+	/* 值样式 */
+.value {
+		flex: 1;
+		/* 占据剩余空间 */
+		font-size: 30rpx;
+		color: #333;
+}
+
+	/* 目标为一时的内容样式 */
+.buyCard_notebox {
+		background-color: #cccccc;
+		border-radius: 15rpx;
+		margin: 20rpx;
+}
+.buyCard_note {
+		height: 80rpx;
+		padding: 10rpx;
+}
+.buyCard_noteContainer {
+		line-height: 80rpx;
+}
+
+	/* 底部bar */
+.footBar {
+		width: 100%;
+		height: 140rpx;
+		background-color: #fbfbfb;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 99;
+}
+.iconbox {
+		width: 40%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+}
+.share {
+		/* display: contents; */
+}
+.share::after {
+		border: none;
+		background-color: none;
+		padding: 0;
+		margin: 0;
+}
+.buybtn {
+		width: 40%;
+		height: 80rpx;
+		line-height: 80rpx;
+		border-radius: 15rpx;
+		background-color: black;
+		color: white;
+		font-weight: 500;
+		font-size: 38rpx;
+		text-align: center;
+}
