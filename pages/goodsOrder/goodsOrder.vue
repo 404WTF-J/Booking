@@ -127,7 +127,7 @@ const selectPayment = (method) => {
 			console.log(addressinfo);
   		},
   		fail:err=>{
-  			// console.log(err);
+  			console.log(err);
   		}
   	})
   };

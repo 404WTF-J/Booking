@@ -27,6 +27,10 @@
 				<uni-icons type="trash" size="40"></uni-icons>
 			</view>
 		</view>	
+		<!-- 底部选框 支付按钮 -->
+		<view class="allcheck">
+			
+		</view>
 	</view>
 </template>
 

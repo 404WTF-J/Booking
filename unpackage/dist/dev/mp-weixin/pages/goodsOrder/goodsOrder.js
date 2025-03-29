@@ -44,6 +44,7 @@ const _sfc_main = {
           console.log(addressinfo);
         },
         fail: (err) => {
+          console.log(err);
         }
       });
     };

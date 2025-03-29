@@ -73,7 +73,7 @@
                 "desc" : "获取用户位置，快速推荐最近商家"
             }
         },
-        "requiredPrivateInfos" : [ "getLocation" ]
+        "requiredPrivateInfos" : [ "getLocation","chooseAddress" ]
     },
     "mp-alipay" : {
         "usingComponents" : true
