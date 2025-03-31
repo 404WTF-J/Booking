@@ -1,1 +1,0 @@
-<view class="CustomizeNav"><view class="uicon" bindtap="{{b}}"><uni-icons wx:if="{{a}}" u-i="967f20aa-0" bind:__l="__l" u-p="{{a}}"></uni-icons></view><view class="customcard">{{c}}</view></view>
