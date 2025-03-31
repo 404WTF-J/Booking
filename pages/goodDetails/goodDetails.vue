@@ -61,7 +61,6 @@
 	} from '@dcloudio/uni-app';
 	import CustomNav from "@/components/customizenav.vue"
 	import CustomFooter from "@/components/customfooter.vue"
-	import utils from '@/common/utils/utils.js';
 	
 	const myValue = ref('商品详情')
 	const goodData = ref({})

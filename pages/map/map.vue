@@ -34,8 +34,6 @@
 	import {
 		onLoad
 	} from '@dcloudio/uni-app';
-	import utils from '@/common/utils/utils.js';
-
 	// 引用百度地图微信小程序JSAPI模块
 	const bmap = require('../../libs/bmap-wx.js');
 

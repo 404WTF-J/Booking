@@ -45,7 +45,6 @@
 		onLoad
 	} from '@dcloudio/uni-app';
 	import CustomNav from "@/components/customizenav.vue"
-	import utils from "@/common/utils/utils.js"
 
 	const coacth = ref('教练详情')
 	const coathData = ref(null);

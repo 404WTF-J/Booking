@@ -30,8 +30,6 @@
 		onLoad,
 		onShareAppMessage
 	} from '@dcloudio/uni-app';
-	import utils from "@/common/utils/utils.js";
-	import CustomNav from "@/components/customizenav.vue";
 	
 	const props = defineProps({
 		customtext:{

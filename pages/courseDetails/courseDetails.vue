@@ -48,7 +48,6 @@
 		onLoad,
 		onShareAppMessage
 	} from '@dcloudio/uni-app';
-	import utils from "@/common/utils/utils.js";
 	import CustomNav from "@/components/customizenav.vue"
 	const courseDeta_data = ref(null)
 	const courseText = ref('课程详情')

@@ -90,7 +90,6 @@
 	import {
 		onLoad
 	} from "@dcloudio/uni-app";
-	import Cusotmnav from "@/components/customizenav.vue"
 
 	// 日期列表数据
 	let dateList

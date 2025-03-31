@@ -19,8 +19,6 @@
 </template>
 
 <script setup>
-	import utils from '@/common/utils/utils.js';
-	import checkmore from "@/components/checkmore/checkmore.vue";
 	import {
 		ref,
 		reactive,
