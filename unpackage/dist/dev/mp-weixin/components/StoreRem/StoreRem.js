@@ -30,13 +30,13 @@ const _sfc_main = {
           return {
             a: item.img,
             b: common_vendor.t(item.goodname),
-            c: common_vendor.t(item.oldprice),
-            d: common_vendor.t(item.newprice),
-            e: common_vendor.o(($event) => goodDetails(item), index),
-            f: index
+            c: common_vendor.t(item.peoplenum),
+            d: common_vendor.t(item.oldprice),
+            e: common_vendor.t(item.newprice),
+            f: common_vendor.o(($event) => goodDetails(item), index),
+            g: index
           };
-        }),
-        c: common_vendor.t(_ctx.peoplenum)
+        })
       };
     };
   }

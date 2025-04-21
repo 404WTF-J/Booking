@@ -95,6 +95,7 @@
 	.containner {
 		overflow: hidden;
 		box-sizing: border-box;
+		margin-top: 150rpx;
 	}
 
 	.coursePackBox {

@@ -1,10 +1,12 @@
 <template>
 	<!-- 自定义navbar -->
-	<view class="CustomizeNav">
-		<view class="uicon" @click="back">
-			<uni-icons type="back" size="25"></uni-icons>
+	<view class="CustomizeNav_box">
+		<view class="CustomizeNav">
+			<view class="uicon" @click="back">
+				<uni-icons type="back" size="25"></uni-icons>
+			</view>
+			<view class="customcard">{{myValue}}</view>
 		</view>
-		<view class="customcard">{{myValue}}</view>
 	</view>
 </template>
 <script setup>
@@ -29,6 +31,14 @@
 </script>
 
 <style>
+	.CustomizeNav_box{
+		width: 100%;
+		position: fixed;
+		background: white;
+		top: 0;
+		z-index: 99;
+	}
+	
 	.CustomizeNav {
 		height: 80rpx;
 		display: flex;
@@ -40,6 +50,8 @@
 		justify-content: space-evenly;
 		align-items: center;
 		position: relative;
+		top: 0;
+		z-index: 999;
 	}
 
 	.uicon {

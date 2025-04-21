@@ -206,6 +206,7 @@
 
 	.memberBox {
 		height: 300rpx;
+		margin-top: 200rpx;
 	}
 
 	.memberQx,
@@ -254,7 +255,6 @@
 	}
 
 	.memberzhnashi {
-		height: 100vh;
 	}
 
 	.memberData {

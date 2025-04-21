@@ -4,9 +4,11 @@
 		/* padding: 20rpx; */
 		background-color: #f7f7f7;
 		position: relative;
+		margin-top: 200rpx;
 }
+
 	/*  购物车*/
-.shoppingCrat{
+.shoppingCrat {
 		width: 100rpx;
 		height: 100rpx;
 		border-radius: 50rpx;
@@ -67,4 +69,23 @@
 		font-size: 30rpx;
 		font-weight: 400;
 		margin-right: 10rpx;
+}
+
+	/* 底部 */
+.goods-nav-box {
+		/* 给外层容器设置宽高，确保组件有空间 */
+		width: 100%;
+		height: 160rpx;
+		position: fixed;
+		bottom: 0;
+		background-color: #fff;
+		border: 1px solid #ddd;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+}
+
+	/* 给组件设置宽高和背景色方便调试 */
+.goods-nav {
+		width: 100%;
 }

@@ -3,7 +3,7 @@
   "enablePullDownRefresh": false,
   "usingComponents": {
     "uni-icons": "../../uni_modules/uni-icons/components/uni-icons/uni-icons",
-    "custom-nav": "../../components/customizenav",
-    "custom-footer": "../../components/customfooter"
+    "uni-goods-nav": "../../uni_modules/uni-goods-nav/components/uni-goods-nav/uni-goods-nav",
+    "custom-nav": "../../components/customizenav"
   }
 }

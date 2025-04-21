@@ -18,7 +18,7 @@
         }
     },
     "compileType": "miniprogram",
-    "libVersion": "3.7.10",
+    "libVersion": "",
     "appid": "wx6a2a1c0bfeab02aa",
     "projectname": "预约场地",
     "condition": {},

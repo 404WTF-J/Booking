@@ -86,6 +86,7 @@
 	.courseDetailsimg {
 		width: 100%;
 		overflow: hidden;
+		margin-top: 200rpx;
 	}
 
 	.courseDetailsimg image {

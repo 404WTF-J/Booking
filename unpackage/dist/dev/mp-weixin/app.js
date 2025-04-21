@@ -23,6 +23,11 @@ if (!Math) {
 }
 const _sfc_main = {
   onLaunch: function() {
+    common_vendor.index.request({
+      url: "http://192.168.31.73:3000/cart/items",
+      success: () => console.log("基础连接正常"),
+      fail: () => console.log("基础连接失败")
+    });
     console.log("App Launch");
   },
   onShow: function() {
@@ -35,6 +40,8 @@ const _sfc_main = {
 const App = /* @__PURE__ */ common_vendor._export_sfc(_sfc_main, [["__file", "/Users/wangtj/Learning/Booking/预约场地/App.vue"]]);
 function createApp() {
   const app = common_vendor.createSSRApp(App);
+  const pinia = common_vendor.createPinia();
+  app.use(pinia);
   return {
     app
   };

@@ -5,6 +5,13 @@
     "sass-loader": "^16.0.5"
   },
   "scripts": {
-    "json": "json-server --watch ./mock/db.json --port 9988"
+    "json": "json-server --watch ./mock/db.json --port 9988 ",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pinia": "^3.0.2"
   }
 }

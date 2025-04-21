@@ -25,6 +25,7 @@
 .memberdetailsBox {}
 .memberBox {
 		height: 300rpx;
+		margin-top: 200rpx;
 }
 .memberQx,
 	.memberCx {
@@ -65,7 +66,6 @@
 		align-items: center;
 }
 .memberzhnashi {
-		height: 100vh;
 }
 .memberData {
 		padding: 20rpx;

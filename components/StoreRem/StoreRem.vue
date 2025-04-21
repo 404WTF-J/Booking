@@ -17,7 +17,7 @@
 					</view>
 					<view class="stroeicon">
 						<view class="storeMember">会员价</view>
-						<view class="storeOrderNum .storeMember">{{peoplenum}}人已下单</view>
+						<view class="storeOrderNum .storeMember">{{item.peoplenum}}人已下单</view>
 					</view>
 				</view>
 				<view class="storePrice">

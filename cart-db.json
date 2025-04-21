@@ -1,0 +1,18 @@
+{
+  "cart_items": [
+    {
+      "id": 1,
+      "goodname": "钛合哑铃",
+      "goodprice": 150,
+      "goodimg": "/static/assest/goodImage/yaling.jpg",
+      "quantity": 2
+    },
+    {
+      "id": 4,
+      "goodname": "轻便套装",
+      "goodprice": 200,
+      "goodimg": "/static/assest/goodImage/yifu.jpg",
+      "quantity": 2
+    }
+  ]
+}

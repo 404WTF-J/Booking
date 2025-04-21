@@ -1,83 +1,170 @@
 
+.containner {
+		overflow-x: hidden;
+		margin-top: 190rpx;
+}
+.shopData-box{
+		height: 100%;
+		padding: 6rpx;
+}
 .product-section {
-  background-color: #fff;
-  padding: 20rpx;
-  margin: 20rpx 0;
-  border-radius: 10rpx;
-  display: flex;
-  align-items: center;
-  position: relative;
-  transition: transform 0.3s ease;
-  transform: translateX(0);
+		background-color: #fff;
+		padding: 20rpx;
+		margin: 20rpx 0;
+		border: 1px solid aliceblue;
+		border-radius: 10rpx;
+		display: flex;
+		align-items: center;
+		position: relative;
+		transition: transform 0.3s ease;
+		transform: translateX(0);
+}
+.product-section:nth-last-child(1) {
+		margin-bottom:120rpx ;
 }
 .product-section.swiped {
-  transform: translateX(-120rpx);
+		transform: translateX(-120rpx);
 }
 .product-section.selected {
-  background-color: #f5f9ff;
+		background-color: #f5f9ff;
 }
 .selection-circle {
-  width: 40rpx;
-  height: 40rpx;
-  border-radius: 50%;
-  border: 2rpx solid #ccc;
-  margin-right: 20rpx;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+		width: 40rpx;
+		height: 40rpx;
+		border-radius: 50%;
+		border: 2rpx solid #ccc;
+		margin-right: 20rpx;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 }
 .inner-circle {
-  width: 24rpx;
-  height: 24rpx;
-  border-radius: 50%;
-  background-color: #2979ff;
+		width: 24rpx;
+		height: 24rpx;
+		border-radius: 50%;
+		background-color: #2979ff;
 }
 .product-image {
-  width: 200rpx;
-  height: 200rpx;
-  margin-right: 20rpx;
+		width: 200rpx;
+		height: 200rpx;
+		margin-right: 20rpx;
 }
 .product-info {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 }
 .product-name {
-  font-size: 32rpx;
-  font-weight: bold;
-  margin-bottom: 10rpx;
+		font-size: 32rpx;
+		font-weight: bold;
+		margin-bottom: 10rpx;
+}
+.product-price_box {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 }
 .product-price {
-  color: #ff5000;
-  font-size: 32rpx;
-  margin-bottom: 20rpx;
+		color: #ff5000;
+		font-size: 30rpx;
+		margin-bottom: 20rpx;
+		margin-left: 15rpx;
 }
 .quantity-selector {
-  display: flex;
-  align-items: center;
+		display: flex;
+		align-items: center;
 }
 .quantity-btn {
-  line-height: 55rpx;
-  text-align: center;
-  background-color: #fff;
-  font-size: 32rpx;
+		line-height: 55rpx;
+		text-align: center;
+		background-color: #fff;
+		font-size: 32rpx;
 }
 .quantity {
-  margin: 0 20rpx;
-  min-width: 40rpx;
-  text-align: center;
-  font-size: 28rpx;
+		margin: 0 20rpx;
+		min-width: 40rpx;
+		text-align: center;
+		font-size: 28rpx;
 }
 .delete-btn {
-  position: absolute;
-  right: -120rpx;
-  top: 0;
-  bottom: 0;
-  width: 120rpx;
-  background-color: #f44;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 28rpx;
+		position: absolute;
+		right: -128rpx;
+		top: 0;
+		bottom: 0;
+		width: 120rpx;
+		background-color: #f44;
+		color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-size: 28rpx;
+}
+.allcheck {
+		width: 100%;
+		height: 140rpx;
+		background-color: #fbfbfb;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		z-index: 99;
+}
+.comfirmbox {
+		width: 90%;
+		padding: 20rpx;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+}
+.okbtn {
+		width: 35%;
+		height: 80rpx;
+		line-height: 80rpx;
+		border-radius: 15rpx;
+		background-color: black;
+		color: white;
+		font-weight: 500;
+		font-size: 38rpx;
+		text-align: center;
+}
+
+	/* 给组件设置宽高和背景色方便调试 */
+.goods-nav {
+		width: 100%;
+}
+	
+	/* 清空购物车的页面 */
+.shopdataNone_box{ 
+		width: 100%;
+		margin-top: 200rpx;
+}
+.shopdataNone_imgbox {
+		width: 30%;
+		height: 200rpx;
+		margin: 100rpx auto;
+		text-align: center;
+}
+.shopdataNone_imgbox image{
+		width: 100%;
+		height: 100%;
+}
+.Catrnone {
+		font-size: 28rpx;
+		color: #ccc;
+		margin-top: 20rpx;
+}
+.backorderbtn {
+		width: 300rpx;
+		height: 70rpx;
+		text-align: center;
+		line-height:70rpx;
+		border-radius: 45rpx;
+		background-color: black;
+		margin: 0 auto;
+}
+.backtext {
+		color: white;
+		font-size: 32rpx;
 }

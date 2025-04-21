@@ -153,9 +153,9 @@
             "style" :                                                                                    
             {
                 "navigationStyle": "custom",
-                "enablePullDownRefresh": false
-            }
-            
+				"enablePullDownRefresh": false
+				
+            } 
         }
     ],
 	"tabBar": {
